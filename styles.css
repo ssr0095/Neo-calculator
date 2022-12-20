@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #ecf0f3;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    outline: none;
+}
+
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 100px;
+    position: relative;
+    bottom: 450px;
+    width: 250px;
+    background-color: #ecf0f3;
+    box-shadow: inset 5px 5px 10px #ffffff,
+                    5px 5px 10px rgba(0,0,0,.16);
+    border-radius: 30px;
+    width: 300px;
+    padding: 15px;
+    margin-left: 350px;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+
+.calculator{
+    background-color: #ecf0f3;
+    padding: 15px;
+    border-radius: 30px;
+    margin-right: 400px;
+    box-shadow: inset 5px 5px 10px #ffffff,
+                    5px 5px 10px rgba(0,0,0,.16);
+    display: grid;
+    grid-template-columns: repeat(4,70px);
+}
+
+input{
+    grid-column: span 4;
+    border: none;
+    text-align: end;
+    border-radius: 30px;
+    width: 260px;
+    height: 70px;
+    box-shadow: inset -5px -5px 10px #ffffff,
+                inset 5px 5px 10px rgba(0,0,0,.16);
+    color: rgb(70, 70, 70);
+    font-size: 50px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+button{
+    height: 48px;
+    width: 48px;
+    border: none;
+    border-radius: 50%;
+    background-color: #ecf0f3;
+
+    box-shadow:  -5px -5px 10px #ffffff,
+              5px 5px 10px rgba(0,0,0,.16);
+    margin: 10px;
+    font-size: 15px;
+}
+
+button:hover{
+background: linear-gradient(145deg, #d4d8db, #fdffff);
+box-shadow:  5px 5px 11px #cbced1,
+             -5px -5px 11px #ffffff;
+}
+
+
+button::after{
+    border: blue 10px solid ;
+    }
+
+.eq{
+    width: 120px;
+    border-radius: 40px;
+    box-shadow:  -5px -5px 10px #ffffff,
+    5px 5px 10px rgba(0,0,0,.16);
+}
+
