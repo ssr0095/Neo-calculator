@@ -71,16 +71,16 @@ button{
     font-size: 15px;
 }
 
-button:hover{
+button:active{
 background: linear-gradient(145deg, #d4d8db, #fdffff);
 box-shadow:  5px 5px 11px #cbced1,
              -5px -5px 11px #ffffff;
 }
 
 
-button::after{
+/* button::after{
     border: blue 10px solid ;
-    }
+    } */
 
 .eq{
     width: 120px;
